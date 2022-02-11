@@ -5,6 +5,9 @@
   src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
 }
 
+:root {
+  --red: #dd4b39;
+}
 
 /* AMENITIES & Facilites  */
 .amenities-container {
@@ -16,7 +19,7 @@
 }
 
 .amenities, .facilities {
-padding: 20px 10px;
+padding: 80px 10px;
 text-align: center;
 }
 .course-grid {
@@ -62,10 +65,6 @@ grid-row-gap: 30px;
 .course-grid .block i {
   width: 100%;
   font-size: 45px;
-
-}
-.course-grid .block i:hover{
-  color: #fff;
 }
 
 .course-grid .block h2 {
@@ -73,13 +72,13 @@ grid-row-gap: 30px;
   /* padding-top: 20px; */
   font-size: 23px;
   font-weight: 600;
-  color: #FFF;
+  color: var(--bold-color);
   margin: 0;
   /* transition: .3s ease-in; */
 }
 
 .course-grid .block:hover {
-  box-shadow: 0 2px 20px rgba(39, 47, 33, 0.3);
+  box-shadow: 0 2px 20px rgba(111, 172, 68, .3);
   background: #dd4b39;
 }
 
@@ -87,7 +86,7 @@ grid-row-gap: 30px;
   color: #fff;
 }
 
-.course-grid .block i:hover  {
+.course-grid .block:hover i {
   color: #fff;
 }
 
@@ -109,6 +108,7 @@ grid-row-gap: 30px;
       max-width: 70px;
   }
 }
+
 .google-maps-contact-content .google-maps {
   position: relative;
   z-index: 1;
@@ -131,9 +131,6 @@ box-shadow: 0 2px 40px 8px rgb(15 15 15 / 15%);
 padding: 35px;
 }
 
-.course-grid .block:hover{
-  color: #fff;
-}
 
 /* Featured Rooms */
 .expo{
@@ -214,4 +211,111 @@ img{
 
 .padding15{
   padding: 15px;
+}
+/* ROOM AND SUITES */
+.marginbot10 {
+  margin-bottom: 10px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.title-sml {
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  display: block;
+  color: #111;
+}
+
+.marginbot20 {
+    margin-bottom: 20px;
+}
+
+.bookRoomFac{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.title-big {
+  font-family: Georgia, "Old Standard TT", Times, serif;
+  font-size: 36px;
+  display: block;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 4px;
+  padding-left: 0px;
+  color: #111;
+  letter-spacing: 0.1pt;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+
+#featured {
+  width: 100%;
+  background: #FFF;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#featured .flexslider {
+  padding: 0;
+  background: none;
+  position: relative;
+  zoom: 1;
+  margin-top: 0;
+  margin-right: -15px;
+  margin-bottom: 30px;
+  margin-left: -15px;
+}
+
+/* rooms */
+.room{
+  padding: 100px 0;
+}
+
+.rooms-header .title{
+   color: #56c5b6;
+}
+
+.room h4{
+   border:2px solid #56c5b6;
+   border-top: none;
+}
+.book-now1 {
+  color: #000000;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  transition: .3s ease-in;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.padding20 {
+  padding: 20px;
+}
+
+.book-now1:hover{
+  background-color: #FFF;
+  color: #dd4b39;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.course-grid.img-container h2:hover{
+color: #fff;
 }
