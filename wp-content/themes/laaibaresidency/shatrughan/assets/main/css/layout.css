@@ -672,7 +672,7 @@ Main Page
 .welcome{
 	margin: 60px auto 0;
 	text-align: center;
-	max-width: 800px;
+	/* max-width: 800px; */
 }
 
 h2.big-title{
