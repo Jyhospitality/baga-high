@@ -1,0 +1,268 @@
+/* -----------------------------
+
+Global Style
+
+-------------------------------- */
+
+
+a{
+	color: #111111;
+}
+
+a:hover{
+	color: #dd4b39 !important;
+}
+
+
+.boxed-wrapper{
+	border: 1px solid #D3D3D3;
+}
+
+.wide-wrapper{
+
+}
+
+.flex-direction-nav a::before{
+	color: #dd4b39 !important;
+}
+
+.published-date, .comments-icon{
+	color: #AAA;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.btn-custom, a.btn-custom{
+	background-color: #dd4b39 !important;
+	color: rgba(255,255,255,0.8) !important;
+	text-transform: uppercase;
+}
+
+.btn-custom:hover, a.btn-custom:hover{
+	background-color: #dd4b39 !important;
+	color: #FFF;
+}
+
+.color-text{
+	color: #dd4b39;
+}
+
+.form-control:focus{
+	border-color: #dd4b39;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
+	border-color: #dd4b39;
+	background: #dd4b39;
+	color: #FFF !important;
+}
+
+.pagination > li > a, .pagination > li > span{
+	color: #dd4b39;
+}
+
+
+/* -----------------------------
+
+Header and Navbar
+
+-------------------------------- */
+.header-main{
+	background: #FFF;
+}
+
+.header-main h1, .footer-logo h1{
+	color: #000;
+	text-shadow : 0 1px 1px #555;
+}
+
+.header-main h1 span, .footer-logo h1 span, .logo-wrapper h1 span{
+	color: #dd4b39;
+}
+
+.main-navbar .navbar-brand{
+	color: #333;
+}
+
+.main-navbar .navbar-brand:hover{
+	color: #444;
+}
+
+.main-navbar > .navbar-nav > li > a :hover{
+	color: #FFF !important;
+}
+
+.main-navbar.navbar ul li a{
+	color: #333;
+}
+
+.main-navbar.navbar ul li a:hover{
+	color: #FFF !important;
+}
+
+.main-navbar .dropdown-menu a{
+	color: #333 !important;
+}
+
+.main-navbar .dropdown-menu a:hover{
+	color: #dd4b39 !important;
+}
+
+.main-navbar .dropdown-menu > li > a:hover, .main-navbar .dropdown-menu > li > a:focus{
+	background-color: #dd4b39;
+}
+
+
+
+.main-navbar .nav > li > a:focus, .main-navbar .nav > li > a:hover, .main-navbar .nav > li.open > a, .main-navbar .nav > li.active > a{
+	background: #dd4b39;
+	color: #FFF;
+}
+
+.main-navbar .nav > li > a.search-btn, .main-navbar .nav > li > a.search-btn-close{
+	background: transparent;
+}
+
+.main-navbar .nav .open > a, .main-navbar .nav .open > a:focus, .main-navbar .nav .open > a:hover{
+	background: #dd4b39;
+}
+
+.main-navbar a.highlighted{
+	color: #FFF !important;
+}
+
+
+@media(min-width:900px) {
+	.main-navbar .dropdown-menu > li > a{
+		border-bottom: 1px solid #EEE;
+	}
+}
+
+@media(max-width: 768px){
+	.main-navbar .dropdown-menu li > a:hover{
+		background: #FFC235;
+		color: #FFF !important;
+	}
+}
+
+/*-----------------------------
+
+Home Slider
+
+-------------------------------*/
+.home-slider .caption-wrapper h2{
+	color: #dd4b39;
+}
+
+.slide-price{
+	background: #dd4b39;
+}
+
+.home-slider .caption-inner a{
+	color: #dd4b39;
+}
+
+/*-----------------------------
+
+Main Page
+
+------------------------------*/
+
+.content-header{
+	background: #dd4b39;
+}
+.box:hover{
+	border-color: #dd4b39;
+	box-shadow: 0 4px 1px #dd4b39;
+	-moz-box-shadow: 0 4px 1px #dd4b39;
+	-webkit-box-shadow: 0 4px 1px #dd4b39;
+}
+
+.box-price{
+	background: #dd4b39;
+}
+
+.datepicker td.selected.active{
+	background-color: #dd4b39 !important;
+	border-color: #dd4b39 !important;
+}
+
+.datepicker table tr th{
+	color: #dd4b39;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+#testi .testi-overlay{
+	background: #dd4b39;
+}
+
+#bx-pager .thumb-item-link:focus {
+    -webkit-box-shadow: 0 0 2px #dd4b39;
+    -moz-box-shadow: 0 0 2px #dd4b39;
+    box-shadow: 0 0 2px #dd4b39;
+    outline: none;
+}
+#bx-pager .thumb-item-link.active {
+    border-bottom: 4px solid #dd4b39;
+}
+
+
+.room-detail .table td i{
+	color: #dd4b39;
+	margin-right: 5px;
+}
+
+
+.booking-wrapper .nav-tabs > li.active > a, .booking-wrapper .nav-tabs > li.active > a:focus{
+	border-bottom: 3px solid #dd4b39;
+	color: #dd4b39;
+}
+
+.booking-wrapper .nav-tabs > li.active  .step{
+	background-color: #dd4b39;
+	border: 1px solid #dd4b39;
+	color: #FFF;
+}
+
+
+.box-person-overlay{
+	background: #dd4b39;
+}
+
+
+.abs-date{
+	background: #dd4b39;
+}
+
+.search-form .bootstrap-select.open .btn{
+	border-color: #dd4b39;
+	background: transparent;
+	color: rgba(255,255,255,0.8);
+}
+
+/*--------------------------------
+
+Gallery
+
+---------------------------------*/
+
+.portfolio-sorting li a:hover,
+.portfolio-sorting li a.active
+{
+	color: #dd4b39;
+	border-bottom: 2px solid #dd4b39;
+}
+
+
+/* -----------------------------
+
+Footer
+
+-------------------------------- */
+
+
+
+#footer a{
+	color: rgba(255,255,255,0.8) !important;
+}
