@@ -12,6 +12,8 @@
     />
     <link rel="stylesheet" href="wp-content/themes/laaibaresidency/shatrughan/assets/plugins/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="wp-content/themes/laaibaresidency/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="wp-content/themes/laaibaresidency/shatrughan/assets/bootstrap/css/bootstrap.min.css" />
     <!-- Flexslider-->
@@ -311,266 +313,140 @@
                         </div>
                     </div>
                 </div>
-                <div class="content-inner">
+                <section class="padding20">
                     <div class="container">
-                        <div class="row">
-                            <!-- <div class="col-md-4 col-sm-4">
-                                <div class="sidebar">
-                                    <h3 class="widget-title">Search</h3>
-                                    <div class="sidebar-widget">
-                                        <div class="search-form-sidebar">
-                                            <form action="contact.html" class="horizontal form-custom" method="post">
-                                                <div class="form-group">
-                                                    <div class="input-group">
-                                                        <input type="text" class="form-control" id="arr_date" name="arr_date" />
-                                                        <span class="input-group-addon">
-                              <i class="fa fa-calendar fa-fw"></i>
-                            </span>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <div class="input-group">
-                                                        <input type="text" class="form-control" id="dep_date" name="dep_date" />
-                                                        <span class="input-group-addon">
-                              <i class="fa fa-calendar fa-fw"></i>
-                            </span>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <select name="adult_1" class="form-control selectpicker">
-                            <option value="none">Adults</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                          </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <select name="child_1" class="form-control selectpicker">
-                            <option value="0">Children</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                          </select>
-                                                </div>
-                                                <div class="form-group">
-                                                    <button type="submit" name="submit" class="btn btn-custom btn-block">
-                            <i class="fa fa-search"></i> Book Now
-                          </button>
-                                                </div>
-                                            </form>
+                        <div class="row padding20" style="background-color: #dd4b39 !important; color: #fff; padding:30px;border-radius:10px">
+                            <div class="col-md-6 padding15 aos-init aos-animate" data-aos="fade-right">
+                <!--                <img src="img/GreenVelvet/52.jpeg" class="img-fluid" alt="">-->
+                                <div id="demo2" class="carousel slide" data-ride="carousel">
+                
+                                    <!-- The slideshow -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img style="border-radius: 15px;" src="images/deluxeWithBalcony2.jpg" class="img-fluid" alt="Best Resorts in Goa">
                                         </div>
+                                     
                                     </div>
-                                </div>
-                            </div> -->
-                            <div class="col-md-12 col-sm-12">
-                                <div class="room-list">
-                                    <div class="box">
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="box-img">
-                                                    <a href="deluxeWithoutBalcony.html">
-                                                        <span class="img-responsive">
-                              <img
-                                width="1800"
-                                height="1200"
-                                src="images/deluxeWithoutBalcony2.jpg"
-                                class="
-                                  attachment-post-thumbnail
-                                  size-post-thumbnail
-                                  wp-post-image
-                                "
-                                alt=""
-                                loading="lazy"
-                                srcset="
-                                images/deluxeWithoutBalcony2.jpg           1800w,
-                                images/deluxeWithoutBalcony2.jpg    300w,
-                                images/deluxeWithoutBalcony2.jpg 1024w,
-                                images/deluxeWithoutBalcony2.jpg   768w,
-                                images/deluxeWithoutBalcony2.jpg 1536w,
-                                images/deluxeWithoutBalcony2.jpg     120w
-                                "
-                                sizes="(max-width: 1800px) 100vw, 1800px"
-                              />
-                            </span>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7">
-                                                <div class="box-body">
-                                                    <a href="deluxeWithoutBalcony.html">
-                                                        <h3 class="box-title">Deluxe room without Balcony </h3>
-                                                    </a>
-                                                    <div class="box-entry hidden-xs">
-                                                        <p></p>
-                                                        <p style="text-align: justify">
-                                                            Our base room category is ideal for all kinds of travelers in Goa. It comes with all modern room amenities.
-                                                        </p>
-
-                                                        <a href="deluxeWithoutBalcony.html" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="box-footer">
-                                            <div class="box-footer-inner">
-                                                <div class="row">
-                                                    <div class="col-md-8 col-sm-8 col-xs-8">
-                                                        <ul>
-                                                            <li><a href="#">Bed Type: King Bed</a></li>
-                                                            <li><a href="#">Room Size: 175 sq.ft</a></li>
-                                                            <li><a href="#">Free Wi-Fi</a></li>
-                                                            <!-- <li><a href="#">Air Purifier</a></li> -->
-
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-md-4 col-sm-4 col-xs-4">
-                                                        <a href="contact.html" class="btn btn-custom pull-right">Book Now <i class="fa fa-shopping-cart"></i
-                            ></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box">
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="box-img">
-                                                    <a href="deluxeWithBalcony.html">
-                                                        <span class="img-responsive">
-                              <img
-                                width="1800"
-                                height="1200"
-                                src="images/deluxeWithBalcony3.jpg"
-                                class="
-                                  attachment-post-thumbnail
-                                  size-post-thumbnail
-                                  wp-post-image
-                                "
-                                alt=""
-                                loading="lazy"
-                                srcset="
-                                images/deluxeWithBalcony3.jpg           1800w,
-                                images/deluxeWithBalcony3.jpg    300w,
-                                images/deluxeWithBalcony3.jpg 1024w,
-                                images/deluxeWithBalcony3.jpg  768w,
-                                images/deluxeWithBalcony3.jpg 1536w,
-                                images/deluxeWithBalcony3.jpg     120w
-                                "
-                                sizes="(max-width: 1800px) 100vw, 1800px"
-                              />
-                            </span>
-                                                    </a>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7">
-                                                <div class="box-body">
-                                                    <a href="deluxeWithBalcony.html">
-                                                        <h3 class="box-title">Deluxe room with Balcony</h3>
-                                                    </a>
-                                                    <div class="box-entry hidden-xs">
-                                                        <p></p>
-                                                        <p style="text-align: justify">
-                                                            One of the most beloved rooms. You can look the best view from the balcony and simply relax and read your favourite book.
-
-                                                        </p>
-
-                                                        <a href="deluxeWithBalcony.html" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="box-footer">
-                                            <div class="box-footer-inner">
-                                                <div class="row">
-                                                    <div class="col-md-8 col-sm-8 col-xs-8">
-                                                        <ul>
-                                                            <li><a href="#">Bed Type: King Bed</a></li>
-                                                            <li><a href="#">Room Size: 264 sq.ft</a></li>
-                                                            <li><a href="#">Free Wi-Fi</a></li>
-                                                            <li><a href="#">View: Balcony</a></li>
-
-                                                            <li><a href="#">Air Conditioning</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-md-4 col-sm-4 col-xs-4">
-                                                        <a href="contact.html" class="btn btn-custom pull-right">Book Now <i class="fa fa-shopping-cart"></i
-                            ></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                
+                
                                 </div>
                             </div>
-
-
-                            <h2 style="text-align: center;width: 100%; margin-bottom: 30px;">Room Amenities</h2>
-                            <div class="row text-center" style="color:black; ">
-                                <div class="col-md-2">
-                                    <i class="fas fa-wifi " style="font-size:45px; color:#dd4b39;padding:0px 10px 0px 10px;"></i>
-                                    <p style="padding:0px 20px 0px 20px;"><b>WI-FI</b></p>
-                                </div>
-                                <div class="col-md-2">
-                                    <i class="fas fa-snowflake" style="font-size:45px; color:#dd4b39;padding:0px 40px 0px 40px;"></i>
-                                    <p><b>AIR CONDITION</b></p>
-                                </div>
-                                <div class="col-md-2">
-                                    <i class="fas fa-shower" style="font-size:45px; color:#dd4b39;padding:0px 20px 0px 20px;"></i>
-                                    <p><b>SHOWER</b></p>
-                                </div>
-                                <div class="col-md-2">
-                                    <i class="fas fa-tv" style="font-size:45px; color:#dd4b39;padding:0px 10px 0px 10px;"></i>
-                                    <p><b>TELEVISION</b></p>
-                                </div>
-                                <div class="col-md-2">
-
-                                    <i class="fas fa-head-side-mask" style="font-size:45px; color:#dd4b39;padding:0px 10px 0px 10px;"></i>
-                                    <p><b>MASK</b></p>
-                                </div>
-                                <div class="col-md-2">
-                                    <i class="fas fa-tty" style="font-size:45px; color:#dd4b39;padding:0px 10px 0px 10px;"></i>
-                                    <p><b>TELEPHONE</b></p>
-                                </div>
-                                <div class="col-md-2">
-
-                                    <i class="fas fa-people-arrows" style="font-size:45px; color:#dd4b39;padding:0px 10px 0px 10px;"></i>
-                                    <p><b>SOCIAL DISTANCING</b></p>
-                                </div>
-                                <div class="col-md-2">
-
-                                    <i class="fas fa-parking
-                " style="font-size:45px; color:#dd4b39;padding:0px 10px 0px 10px;"></i>
-                                    <p><b>PARKING AREA </b></p>
-                                </div>
-
-                                <div class="col-md-2">
-
-                                    <i class="fas fa-video" style="font-size:45px; color:#dd4b39;padding:0px 10px 0px 10px;"></i>
-                                    <p><b>CCTV SUPERVISION</b></p>
-                                </div>
-                                <div class="col-md-2">
-
-                                    <i class="fas fa-thermometer-three-quarters" style="font-size:45px; color:#dd4b39;padding:0px 10px 0px 10px;"></i>
-                                    <p><b>TEMPERATURE CHECK</b></p>
-                                </div>
-                                <div class="col-md-2">
-
-                                    <i class="fas fa-thumbs-up" style="font-size:45px; color:#dd4b39;padding:0px 10px 0px 10px;"></i>
-                                    <p><b>HOUSE KEEPING</b></p>
-                                </div>
-                                <div class="col-md-2">
-
-                                    <i class="fas fa-concierge-bell" style="font-size:45px; color:#dd4b39;padding:0px 10px 0px 10px;"></i>
-                                    <p><b>IN ROOM DINING</b></p>
+                            <div class="col-md-6 padding15 aos-init aos-animate" data-aos="fade-left">
+                                <!-- <h6>The Boho, Goa</h6> -->
+                                <h3 class="mt-2" style="color:#fff">DELUXE ROOM WITH BALCONY</h3>
+                                <p class="para text-left mt-3 mb-4 p-0">One of the hotel's most beloved rooms. You can look the best view from the balcony and simply relax and read your favourite book.</p>
+                                <div class="flex">
+                                    <a class="book-now1" href="contact.html">BOOK NOW</a>
+                                    <a class="book-now1" href="tel: +91 90281 50994">CALL NOW</a>
                                 </div>
                             </div>
+                        </div>
+                
+                    </div>
+                </section>
+                <section class="padding20">
+                    <div class="container">
+                        <div class="row padding20" style="background-color: #dd4b39 !important; color: #fff; padding:30px;border-radius:10px">
+                            <div class="col-md-6 padding15 aos-init aos-animate" data-aos="fade-right">
+                <!--                <img src="img/GreenVelvet/52.jpeg" class="img-fluid" alt="">-->
+                <!-- <h6>The Boho, Goa</h6> -->
+                <h3 class="mt-2" style="color:#fff">DELUXE ROOM WITHOUT BALCONY</h3>
+                <p class="para text-left mt-3 mb-4 p-0">Our base room category is ideal for all kind or travelers in Goa. It comes with all modern room amenities.</p>
+                <div class="flex">
+                    <a class="book-now1" href="contact.html">BOOK NOW</a>
+                    <a class="book-now1" href="tel: +91 90281 50994">CALL NOW</a>
+                </div>
+                            </div>
+                            <div class="col-md-6 padding15 aos-init aos-animate" data-aos="fade-left">
+                                <div id="demo2" class="carousel slide" data-ride="carousel">
+                
+                                    <!-- The slideshow -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img style="border-radius: 15px;" src="images/deluxeWithoutBalcony2.jpg" class="img-fluid" alt="Best Resorts in Goa">
+                                        </div>
+                                     
+                                    </div>
+                
+                
+                                </div>
+                               
+                            </div>
+                        </div>
+                
+                    </div>
+                </section>
+                
+
+
+                <section class="facilities">
+                    <div class="amenities-container">
+                        <h3 data-aos="fade-up">Facilities In Our Rooms</h3>
+                        <div class="course-grid">
+                            <div class="block" data-aos="fade-up">
+                                <div class="img-container">
+                                    <i class="fas fa-wifi"></i>
+                                </div>
+                                <h2 >Wi-Fi</h2>
+                            </div>
+              
+                            <!-- Block finished -->
+                            <div class="block" data-aos="fade-up">
+                                <div class="img-container">
+                                    <i class="fas fa-snowflake"></i>
+                                </div>
+                                <h2>AIR CONDITION</h2>
+                            </div>
+                            <!-- Block finished -->
+                            <div class="block" data-aos="fade-up">
+                              <div class="img-container">
+                                  <i class="fas fa-shower"></i>
+                              </div>
+                              <h2>SHOWER</h2>
+                          </div>
+                            <!-- Block finished -->
+                            <div class="block" data-aos="fade-up">
+                                <div class="img-container">
+                                  <i class="fas fa-tv"></i>
+                                </div>
+                                <h2>TELEVISION</h2>
+                            </div>
+                            <!-- Block finished -->
+                            <div class="block" data-aos="fade-up">
+                                <div class="img-container">
+                                    <i class="fas fa-head-side-mask"></i>
+                                </div>
+                                <h2>MASK</h2>
+                            </div>
+                            <!-- Block finished -->
+                            <div class="block" data-aos="fade-up">
+                                <div class="img-container">
+                                    <i class="fas fa-tty"></i>
+                                </div>
+                                <h2>TELEPHONE</h2>
+                            </div>
+                            <div class="block" data-aos="fade-up">
+                              <div class="img-container">
+                                  <i class="fas fa-thermometer"></i>
+                              </div>
+                              <h2>Temperature Check</h2>
+                          </div>
+                          <div class="block" data-aos="fade-up">
+                            <div class="img-container">
+                                <i class="fas fa-people-arrows"></i>
+                            </div>
+                            <h2>Social  Distancing</h2>
+                        </div><div class="block" data-aos="fade-up">
+                          <div class="img-container">
+                              <i class="fas fa-concierge-bell"></i>
+                          </div>
+                          <h2>IN ROOM DINING</h2>
+                      </div>
+                            <!-- Block finished -->
+                        </div>
+                        <!-- work grid close -->
+                    </div>
+                </section>
                         </div>
                     </div>
                 </div>
@@ -719,6 +595,7 @@
 
         <!---------Calendar Script-------->
         <script src="wp-content/themes/laaibaresidency/shatrughan/cal/js/jquery.js"></script>
+       
         <script src="wp-content/themes/laaibaresidency/shatrughan/cal/js/resavenue-booking-datepicker.js"></script>
         <script src="wp-content/themes/laaibaresidency/shatrughan/cal/js/resavenue-booking-scripts.js"></script>
         <!----------gallery-Script----------->
@@ -728,6 +605,8 @@
         <script src="wp-content/themes/laaibaresidency/shatrughan/light-gallery/jquery.mousewheel.min.js"></script>
         <!----------gallery-Script----------->
         <script src="https://kit.fontawesome.com/251d3a1e2b.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/aos.js"></script>
         <script type="text/javascript" src="wp-includes/js/wp-embed.min.js?ver=5.7.3" id="wp-embed-js"></script>
 </body>
 
